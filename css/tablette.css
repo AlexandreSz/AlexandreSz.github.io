@@ -1,0 +1,78 @@
+/************************************
+*            header                 *
+************************************/
+
+
+/************************************
+*            recherche              *
+************************************/
+.title-main h1{
+    font-size: 1.4rem;
+}
+
+/************************************
+*            Filtres                *
+************************************/
+.filtre-list{
+    margin-left: 1.3rem;
+    gap: 1rem;
+}
+
+/************************************
+*               Infos               *
+************************************/
+
+
+/************************************
+*      Hébergements + Populaire     *
+************************************/
+
+.apparts{
+  flex-direction: column;
+}
+.populaires{
+    order: -1;
+}
+.card-list-pop{
+    display: block;
+    flex-direction: column;
+    padding: 0 0.5rem 0.5rem 0.5rem; 
+}
+.card-pop{
+    
+    margin-bottom: 1rem;
+}
+.card-body-pop{
+    padding: 0.5rem;
+}
+.image-pop img{
+    object-fit: cover;
+   width: 12rem;
+   height: 100%;
+}
+.card-list{
+    display: flex;
+    justify-content: center;
+    padding: 0 0.5rem 0.5rem 0.5rem; 
+}
+.image img{
+    object-fit: cover;
+    height: 15rem;
+    width: 100%;
+}
+
+/************************************
+*             ACTIVITES             *
+************************************/
+.activ-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.m1-s1 , .equal{ 
+    flex-basis: 48%;
+}
+.card-big{
+    flex-basis: 48%;
+}
+
