@@ -1,0 +1,301 @@
+main {
+    padding: 0;
+}
+
+
+/************************************
+*            header                 *
+************************************/
+
+#logo {
+    display: none;
+}
+
+#logomob {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    width: 35%;
+}
+
+nav {
+    margin-right: 0;
+}
+
+.subnav {
+    margin-top: 32px;
+    flex-basis: 100%;
+    text-align: center;
+}
+
+.subnav a {
+    flex-basis: 50%;
+    border-bottom: 1px solid var(--grey);
+}
+
+.subnav a:hover {
+    border-top: none;
+    border-bottom: 1px solid var(--blue);
+}
+
+
+/************************************
+*            recherche              *
+************************************/
+
+.search {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-main {
+    padding-left: 24px;
+}
+
+.title-main h1 {
+    font-size: 24px;
+}
+
+.recherche button .searchs {
+    display: none;
+}
+
+i.fa-solid.fa-location-dot {
+    font-size: 19px;
+}
+
+.recherche button i {
+    display: block;
+    font-size: 19px;
+}
+
+.recherche button {
+    border-radius: 16px;
+    padding: 16px;
+}
+
+.recherche input {
+    border: none;
+    font-size: 19px;
+}
+
+.recherche {
+    border-radius: 16px;
+    border: 1px solid var(--grey);
+}
+
+
+/************************************
+*            Filtres                *
+************************************/
+
+.filtre i {
+    padding: 8px;
+}
+
+h2 {
+    margin-right: 50%;
+    font-size: 22px;
+}
+
+.filtre-list {
+    margin-left: 21px;
+    gap: 16px;
+}
+
+.filtre span {
+    font-weight: bold;
+    font-size: 16px;
+    padding: 0 16px 0 3px;
+}
+
+
+/************************************
+*               Infos               *
+************************************/
+
+.info {
+    padding: 0 16px;
+}
+
+.info p {
+    font-size: 16px;
+}
+
+.info .fas.fa-info {
+    font-size: 13px;
+    padding: 8px 8px;
+}
+
+@media screen and (max-width: 435px) {
+    .info .fas.fa-info {
+        margin-bottom: 14px;
+    }
+}
+
+
+/************************************
+*    Hébergements + Populaires      *
+************************************/
+
+.apparts {
+    flex-direction: column;
+}
+
+.villes {
+    background-color: white;
+    border-radius: 0;
+}
+
+.apparts h2 {
+    margin-right: 0;
+    padding-left: 32px;
+}
+
+.populaires {
+    order: -1;
+    border-radius: 0;
+}
+
+.card-list {
+    display: block;
+    flex-direction: column;
+    padding: 0 32px 8px 32px;
+}
+
+.card {
+    width: auto;
+    margin-bottom: 16px;
+}
+
+.card-body h3,
+.card-body p {
+    font-size: 16px;
+}
+
+.image img {
+    object-fit: cover;
+    height: 128px;
+    width: 100%;
+}
+
+.show-more {
+    font-size: 16px;
+    padding-top: 0;
+    padding-left: 32px;
+    font-weight: bold;
+}
+
+
+/******** POULAIRES ********/
+
+.card-list-pop {
+    display: block;
+    flex-direction: column;
+    padding: 0 32px 8px 32px;
+}
+
+.card-pop {
+    margin-bottom: 16px;
+    width: 320px;
+}
+
+.card-body-pop {
+    padding: 8px;
+}
+
+.image-pop img {
+    object-fit: cover;
+    width: 128px;
+    height: 100%;
+}
+
+.card-body-pop h3,
+.card-body-pop p {
+    font-size: 16px;
+}
+
+.titre-icon i {
+    margin-left: auto;
+    padding-right: 32px;
+}
+
+
+/************************************
+*             ACTIVITES             *
+************************************/
+
+#activitées h2 {
+    margin-right: 0;
+    padding-left: 32px;
+}
+
+.activ-list {
+    gap: 16px;
+    display: block;
+    flex-direction: column;
+    padding: 0 32px 8px 32px;
+}
+
+.activ-list>* {
+    margin-bottom: 16px;
+}
+
+.card-big .image-activ img {
+    object-fit: cover;
+    height: 128px;
+    width: 100%;
+    border-radius: 16px 16px 0 0;
+}
+
+.card-medium .image-activ img {
+    object-fit: cover;
+    height: 128px;
+    width: 100%;
+    border-radius: 16px 16px 0 0;
+}
+
+.card-small .image-activ img {
+    object-fit: cover;
+    height: 128px;
+    width: 100%;
+    border-radius: 16px 16px 0 0;
+}
+
+.equal1 .image-activ img {
+    object-fit: cover;
+    height: 128px;
+    width: 100%;
+    border-radius: 16px 16px 0 0;
+}
+
+.equal2 .image-activ img {
+    object-fit: cover;
+    height: 128px;
+    width: 100%;
+    border-radius: 16px 16px 0 0;
+}
+
+.m1-s1,
+.equal {
+    gap: 16px;
+}
+
+.card-big h3 {
+    padding-bottom: 19px;
+}
+
+
+/***************FOOTER****************/
+
+footer {
+    flex-direction: column;
+    align-items: center;
+    font-size: 15px;
+}
+
+.bas_page {
+    width: 90%;
+    padding: 30px 0px 30px 30px;
+}
